@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Welcome to my Portfolio</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="css/custom.css" rel="stylesheet"> -->
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0px;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+
+  .list {
+    list-style: none;
+    padding: 0px;
+
+  }
+
+  .gallary {
+    padding: 10px 20px;
+  }
+
+  .menu {
+    position: relative;
+  }
+
+  .sidebar {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    width: 30vw;
+    height: 100%;
+    background-color: rgb(231, 231, 231);
+    padding-top: 3em;
+    padding-bottom: 40px;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+
+  .logo {
+    margin-bottom: 2.5em;
+    display: block;
+    width: 100%;
+    font-weight: 900;
+    font-size: 34px;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .sidebar ul li {
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .sidebar ul li a {
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    position: relative;
+    padding: 10px 0;
+  }
+
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  .subheading {
+    font-size: 24px;
+    color: #bfbfbf;
+    font-weight: 300;
+  }
+
+  .img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .card-text {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .background {
+    background-image: url(./personal/images/hw4.jpg);
+    opacity: 0.2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top:0;
+    position: fixed;
+    /* z-index: 0; */
+  }
+</style>
+
+<body>
+
+  <div class="background"></div>
+  <div class="container ">
+
+    <div class="sidebar">
+      <h1 class="logo"><a href="index.html">My Works<span>.</span></a></h1>
+      <p>
+      <ul>
+        <li><a href="personal/index.html">Personal Website</a></li>
+        <li><a href="interest/index.html">Interest Website</a></li>
+        <li><a href="cause/index.html"> Cause Website</a></li>
+      </ul>
+      </p>
+    </div>
+
+    <div style="margin-left: 30vw;padding-top: 40px;">
+      <div class="main">
+        <div class="col-md-8 text text-center" style="margin: 0px auto;">
+          <img class="img mb-4" src="personal/images/shirley.jpg" alt="">
+          <div class="desc">
+            <h2 class="subheading">Hello I'm</h2>
+            <h1 class="mb-4">Shirley</h1>
+            <p class="mb-4">This is my personal website, which contains something about myself, my interest and why I want to create this website. 
+            </p>
+
+          </div>
+        </div>
+
+        <div class="gallary">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card">
+                <img src="https://picsum.photos/300/300?random=1" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Personal Website</h5>
+                  <p class="card-text text-muted">My name is Shirley Zhang, a junior in New York University. Here are some facts about me :)</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://picsum.photos/300/300?random=2" alt="">
+
+                <div class="card-body">
+                  <h5 class="card-title">Interest Website</h5>
+                  <p class="card-text text-muted">Psychology is both my minor and my interest. Learning about mechanisms behind people's social interaction is attractive, and I would like to share some of interesting psychological knowledges with you.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+
+                <img src="https://picsum.photos/300/300?random=3" alt="">
+
+                <div class="card-body">
+                  <h5 class="card-title">Cause Website</h5>
+                  <p class="card-text text-muted">Depression is a common psychological disorder nowadays. By creating this website, I hope to get more people understand it, and stay away from it.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
