@@ -1,0 +1,176 @@
+@font-face {
+  font-family: sans-serif;
+  src: url('../fonts/DS-DIGI.ttf');
+}
+
+
+html{
+	background: url('../images/shirley.jpg') no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+#wrap{
+	background-color : rgba(95, 158, 160,0.8);
+	padding : 20px;
+	border-radius : 20px;
+}
+
+header{
+
+}
+
+.s1{
+
+}
+
+.s2{
+	
+}
+
+
+.navItem{
+	/*background-color: white;*/
+}
+
+a:link{
+	color : green;
+	text-decoration : none;
+	font-family : sans-serif;
+}
+
+a:hover{
+	color : purple;
+}
+
+a:visited{
+	color : white;
+	font-size: 18pt;
+}
+
+a:focus{
+	color :yellow;
+	font-size: 14pt;
+}
+
+a:active{
+	color : yellow;
+}
+
+nav{
+
+}
+
+nav ul{
+	list-style : none;
+	padding : 0px;
+	margin : 0px;
+
+	border : solid 0px black;
+
+	display : flex;
+}
+
+nav ul a{
+	border : solid 1px white;
+
+	flex-grow : 1;
+	max-width : 25%;
+	text-align : center;
+
+	padding-top : 10px;
+	padding-bottom : 10px;
+
+}
+
+nav ul a:hover{
+	background-color : black;
+	/*color : white;*/
+
+	cursor : pointer;
+}
+
+nav ul li a{
+
+}
+
+
+#mainArea{
+	border : solid 0px black;
+	margin-top : 50px;
+	display : flex;
+	color : white;
+	font-size: 16pt;
+	font-weight : bold;
+	font-family : sans-serif;
+}
+
+#mainArea form{
+	flex-grow : 1;
+	padding : 20px;
+}
+
+#mainArea section{
+	border : solid 0px blue;
+
+	flex-grow : 1;
+	padding : 20px;
+
+}
+
+#mainArea table{
+	color : white;
+	border : solid 0px white;
+}
+
+#mainArea table tr{}
+
+#mainArea table tr td{
+	padding : 50px;
+	border : solid 1px white;
+}
+
+#shirley, iframe{
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,.45);
+}
+
+footer{
+	border : solid 0px blue;
+	display : flex;
+
+	margin-top : 50px;
+}
+
+footer section{
+	border : solid 0px blue;
+	flex-grow : 1;
+	max-width : 50%;
+
+	display : flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#socialMedia{
+
+	list-style : none;
+	padding : 0px;
+	margin : 0px;
+
+	display : flex;
+	justify-content: center;
+	align-items: center;
+
+
+
+	border : solid 0px blue;
+}
+
+#socialMedia li{
+	margin : 10px;
+}
+
